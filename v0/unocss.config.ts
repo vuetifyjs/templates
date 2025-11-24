@@ -4,4 +4,9 @@ export default defineConfig({
   presets: [
     presetWind3(),
   ],
+  theme: {
+    fontFamily: {
+      sans: ['Roboto', 'sans-serif'],
+    },
+  },
 })
